@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stockt
 x-kinRank: "8"
 x-alexaRank: "6524"
 tags: StockTwits
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stocktwits/master/_listings/stocktwits/apis.md
 specificationVersion: "0.14"
 apis:
