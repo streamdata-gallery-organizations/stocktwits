@@ -7,36 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stockt
 x-kinRank: "8"
 x-alexaRank: "6524"
 tags: StockTwits
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-31"
+modified: "2018-08-31"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stocktwits/master/_listings/stocktwits/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stocktwits Streams by Symbol
-  x-api-slug: stocktwits
+- name: No Title - Streams by Symbol
+  x-api-slug: streamssymbol-get
   description: Returns the most recent 30 messages for the specified symbol. Includes
     symbol object in response.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stocktwits.jpg
   humanURL: http://stocktwits.com
-  baseURL: :////streams/symbol
-  tags: ""
+  baseURL: :///
+  tags: Finance, Stocks, Twitter, Markets, StockTwits, Social, Target, Financial,
+    internet, Mobile, Technology, Financial Services, Stocks, General Data, Service
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stocktwits/master/_listings/stocktwits/streamssymbol-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stocktwits/master/_listings/stocktwits/streamssymbol-get-openapi.md
-- name: Stocktwits
-  x-api-slug: stocktwits
-  description: StockTwits is a real-time social network for investors and traders.
-    Download our app and visit StockTwits.com.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stocktwits.jpg
-  humanURL: http://stocktwits.com
-  baseURL: :///
-  tags: StockTwits
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stocktwits/master/_listings/stocktwits/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stocklytics.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stocktwits.stack.network
 - type: x-authentication
   url: https://api.stocktwits.com/developers/docs/authentication
 - type: x-base
